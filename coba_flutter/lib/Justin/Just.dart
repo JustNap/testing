@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+class Just extends StatefulWidget { // Rename ke Just agar konsisten dengan main.dart
+  const Just({super.key});
 
   @override
-  State<MyWidget> createState() => _MyWidgetState();
+  State<Just> createState() => _JustState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
+class _JustState extends State<Just> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
